@@ -1,7 +1,7 @@
 
 module.exports = {
   name: 'Efflam Daniel',
-  title: 'efflam.io',
+  title: 'Efflam',
   mail: 'hi@efflam.io',
   baseUrl: '',
   favicon: 'favicon.png',

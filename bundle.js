@@ -22452,7 +22452,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	var blue = exports.blue = '#0760fe';
-	var gray = exports.gray = '#BBB';
+	var gray = exports.gray = '#999';
+	var silver = exports.silver = '#CCC';
 
 /***/ },
 /* 176 */
@@ -22579,9 +22580,8 @@ return /******/ (function(modules) { // webpackBootstrap
 	      href: href
 	    }, (0, _glamor.merge)({
 	      color: _colors.blue,
-	      // fontWeight: 'bold',
 	      textDecoration: 'none',
-	      boxShadow: '0 1px 0 ' + _colors.gray,
+	      boxShadow: '0 1px 0 ' + _colors.silver,
 	      transition: 'box-shadow .3s cubic-bezier(0.19, 1, 0.22, 1)'
 	    }, (0, _glamor.hover)({
 	      boxShadow: '0 ' + (fat ? 6 : 3) + 'px 0 ' + _colors.blue
@@ -22778,7 +22778,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      'h3',
 	      (0, _glamor.style)({
 	        fontSize: '1rem',
-	        fontWeight: 'normal',
+	        // fontWeight: 'normal',
 	        margin: '0 0 0.5rem 0'
 	      }),
 	      _react2.default.createElement(
