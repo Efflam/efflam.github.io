@@ -7,7 +7,7 @@ const Br = () => (
   <br
     {...merge(
       { display: 'none' },
-      media(breakpoints.desktop, {
+      media(breakpoints.tablet, {
         display: 'block'
       })
     )}
@@ -28,7 +28,6 @@ export default ({byline, location}) => (
         },
         media(breakpoints.tablet, {
           fontSize: '2.5rem',
-          width: '60%'
         })
       )}
     >
