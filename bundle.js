@@ -22517,7 +22517,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      (0, _glamor.style)({
 	        //fontSize: '2rem'
 	      }),
-	      'Currently at ',
+	      'Currently Lead Creative Developer at ',
 	      _react2.default.createElement(
 	        _Link2.default,
 	        { href: 'http://nu.run' },
