@@ -8,7 +8,7 @@ export default ({href, children, fat=false}) => (
     {...merge(
       {
         color: blue,
-        fontWeight: 'bold',
+        // fontWeight: 'bold',
         textDecoration: 'none',
         boxShadow:  `0 1px 0 ${gray}`,
         transition: 'box-shadow .3s cubic-bezier(0.19, 1, 0.22, 1)'
