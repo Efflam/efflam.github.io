@@ -3,5 +3,5 @@ export default {
   phablet: '(min-width: 550px)',
   tablet: '(min-width: 750px)',
   desktop: '(min-width: 1000px)',
-  hd: '(min-width: 1200px)',
+  hd: '(min-width: 1200px)'
 }
