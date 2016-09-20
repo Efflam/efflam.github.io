@@ -3,18 +3,12 @@ import {style, merge, after, media} from 'glamor'
 import breakpoints from '../constants/breakpoints'
 import Link from './Link'
 
-const NavItem = ({href, title}) => (
-  <Link 
-    href={href}
-  >
-    {title}
-  </Link>
-)
+const NavItem = ({href, title}) => <Link href={href}>{title}</Link>
 
 export default ({nav}) => (
   <nav>
     {nav.map((item, i) =>
-      <div 
+      <div
         key={i}
         {...merge(
           { 
@@ -31,4 +25,4 @@ export default ({nav}) => (
       </div>
     )}
   </nav>
-) 
+)

@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectLink from './ProjectLink'
 import {style} from 'glamor'
 
-const ProjectList = ({
+export default ({
   projects
 }) => {
   return (
@@ -20,6 +20,3 @@ const ProjectList = ({
     </div>
   )
 }
-
-export default ProjectList
-

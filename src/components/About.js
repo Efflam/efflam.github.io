@@ -32,15 +32,14 @@ export default ({byline, location}) => (
         })
       )}
     >
-      Developer specializing <Br/>in real-time graphics rendering <Br/>& modular architecture <Br/>on the web platform.
+      Developer specializing <Br/>
+      in real-time graphics rendering <Br/>
+      & modular architecture <Br/>
+      for the web platform.
     </p>
-    <p
-      {...style({
-        //fontSize: '2rem'
-      })}
-    >
+    <p>
       Currently Lead Creative Developer at <Link href="http://nu.run">Nurun</Link>.<br/>
       {location}
     </p>
   </header>
-) 
+)

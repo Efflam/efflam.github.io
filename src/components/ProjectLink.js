@@ -8,7 +8,6 @@ export default ({href, name, description, tags}) => (
     <h3
       {...style({
         fontSize: '1rem',
-        // fontWeight: 'normal',
         margin: '0 0 0.5rem 0'
       })}
     >
