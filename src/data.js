@@ -16,7 +16,7 @@ module.exports = {
   nav: [
     { href: '//twitter.com/efflam', title: 'Twitter' },
     { href: '//github.com/efflam', title: 'Github' },
-    { href: '//github.com/efflam', title: 'LinkedIn' },
+    { href: '//www.linkedin.com/in/efflam', title: 'LinkedIn' },
   ],
   social_networks: [
     { name: 'Twitter', link: '//twitter.com/efflam' },
