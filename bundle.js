@@ -22579,7 +22579,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      href: href
 	    }, (0, _glamor.merge)({
 	      color: _colors.blue,
-	      fontWeight: 'bold',
+	      // fontWeight: 'bold',
 	      textDecoration: 'none',
 	      boxShadow: '0 1px 0 ' + _colors.gray,
 	      transition: 'box-shadow .3s cubic-bezier(0.19, 1, 0.22, 1)'
@@ -22778,6 +22778,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      'h3',
 	      (0, _glamor.style)({
 	        fontSize: '1rem',
+	        fontWeight: 'normal',
 	        margin: '0 0 0.5rem 0'
 	      }),
 	      _react2.default.createElement(
