@@ -21,14 +21,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jxnblk/jxnblk.github.io.git"
+    "url": "git://github.com/Efflam/efflam.github.io.git"
   },
   "author": "Efflam Daniel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jxnblk/jxnblk.github.io/issues"
+    "url": "https://github.com/Efflam/efflam.github.io/issues"
   },
-  "homepage": "https://github.com/jxnblk/jxnblk.github.io",
+  "homepage": "https://github.com/Efflam/efflam.github.io",
   "dependencies": {
     "glamor": "^2.15.5"
   }

@@ -39,7 +39,7 @@ export default ({byline, location}) => (
         //fontSize: '2rem'
       })}
     >
-      Currently at <Link href="http://nu.run">Nurun</Link>.<br/>
+      Currently Lead Creative Developer at <Link href="http://nu.run">Nurun</Link>.<br/>
       {location}
     </p>
   </header>
