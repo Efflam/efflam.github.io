@@ -3,10 +3,7 @@ module.exports = {
   name: 'Efflam Daniel',
   title: 'Efflam',
   mail: 'hi@efflam.io',
-  baseUrl: '',
   favicon: 'favicon.png',
-  _byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems, with an emphasis on heuristics, user-centered design, and collaborative design processes. Based in Brooklyn, NY.',
-  __byline: 'Brent Jackson is a designer/developer specializing in living style guides, front-end architecture, and modular design systems. Based in Brooklyn, NY.',
   location: 'Based in Paris, France.',
   byline: `
     Developer specializing in real-time graphics rendering & modular architecture on the web platform.
@@ -17,10 +14,6 @@ module.exports = {
     { href: '//twitter.com/efflam', title: 'Twitter' },
     { href: '//github.com/efflam', title: 'Github' },
     { href: '//www.linkedin.com/in/efflam', title: 'LinkedIn' },
-  ],
-  social_networks: [
-    { name: 'Twitter', link: '//twitter.com/efflam' },
-    { name: 'Github', link: '//github.com/efflam' }
   ],
   projects: [
     {
