@@ -22452,7 +22452,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  value: true
 	});
 	var blue = exports.blue = '#0760fe';
-	var gray = exports.gray = '#AAA';
+	var gray = exports.gray = '#BBB';
 
 /***/ },
 /* 176 */
