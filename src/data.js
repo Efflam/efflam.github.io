@@ -9,7 +9,7 @@ module.exports = {
     Developer specializing in real-time graphics rendering & modular architecture on the web platform.
   `,
   job: 'Lead Creative Developer',
-  copyright: '© 2016 Efflam DANIEL',
+  copyright: '© 2016 Efflam Daniel',
   nav: [
     { href: '//twitter.com/efflam', title: 'Twitter' },
     { href: '//github.com/efflam', title: 'Github' },
