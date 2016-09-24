@@ -11,7 +11,7 @@ export default ({mail}) => (
         // paddingTop: '5rem',
         // paddingBottom: '5rem',
         fontWeight: 'bold',
-        fontSize: '2rem'
+        fontSize: '1.5rem'
       },
       media(breakpoints.tablet, {
         fontSize: '2.5rem',
