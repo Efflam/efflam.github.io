@@ -2,11 +2,12 @@ import React from 'react'
 import {style, merge, after, media} from 'glamor'
 import breakpoints from '../constants/breakpoints'
 import Link from './Link'
+import Section from './Section'
 
 const NavItem = ({href, title}) => <Link href={href}>{title}</Link>
 
 export default ({nav}) => (
-  <nav>
+  <Section>
     {nav.map((item, i) =>
       <div
         key={i}
@@ -24,5 +25,5 @@ export default ({nav}) => (
         <NavItem  {...item} />
       </div>
     )}
-  </nav>
+  </Section>
 )

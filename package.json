@@ -4,7 +4,7 @@
   "description": "Efflam Daniel, Developer",
   "scripts": {
     "build": "webpack --progress --colors -p",
-    "start": "webpack-dev-server --progress --colors"
+    "start": "webpack-dev-server --progress --colors --hot "
   },
   "devDependencies": {
     "babel-core": "^6.14.0",

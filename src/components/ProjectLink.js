@@ -1,6 +1,6 @@
 import React from 'react'
 import {style} from 'glamor'
-import {gray} from '../constants/colors'
+import * as colors from '../constants/colors'
 import Link from './Link'
 
 export default ({href, name, description, tags}) => (
@@ -8,6 +8,7 @@ export default ({href, name, description, tags}) => (
     <h3
       {...style({
         fontSize: '1rem',
+        // fontWeight: 'normal',
         margin: '0 0 0.5rem 0'
       })}
     >
@@ -25,7 +26,7 @@ export default ({href, name, description, tags}) => (
     <p
       {...style({
         margin: 0,
-        color: gray
+        color: colors.black40
       })}
     >
       {tags.map((tag, i)=> <span>#{tag} </span>)}

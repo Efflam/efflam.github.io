@@ -4,12 +4,12 @@ module.exports = {
   title: 'Efflam',
   mail: 'hi@efflam.io',
   favicon: 'favicon.png',
-  location: 'Based in Paris, France.',
+  location: 'Paris, France',
   byline: `
     Developer specializing in real-time graphics rendering & modular architecture on the web platform.
   `,
+  job: 'Lead Creative Developer',
   copyright: '© 2016 Efflam DANIEL',
-  homepage: '//efflam.io',
   nav: [
     { href: '//twitter.com/efflam', title: 'Twitter' },
     { href: '//github.com/efflam', title: 'Github' },
@@ -19,7 +19,7 @@ module.exports = {
     {
       href: 'http://livreblanc.linkfluence.publicisnurun.fr',
       name: 'Nurun Whitepaper #01',
-      description: 'Interactive 3d dataviz',
+      description: 'Interactive 3d data visualization',
       tags: ['react', 'regl']
     },
     {
@@ -42,13 +42,13 @@ module.exports = {
       "count": 1
     },
     {
-      "name": "Cutting Edge Project of the Week",
-      "from": "TheFWA & Abobe",
+      "name": "Site of the Day",
+      "from": "Awwwards",
       "count": 1
     },
     {
-      "name": "Site of the Day",
-      "from": "Awwwards",
+      "name": "Cutting Edge Project of the Week",
+      "from": "TheFWA & Abobe",
       "count": 1
     }
   ],

@@ -1,15 +1,14 @@
 import React from 'react'
 import {style} from 'glamor'
-import {gray} from '../constants/colors'
+import * as colors from '../constants/colors'
+import Section from './Section'
 
 export default ({copyright}) => (
-  <footer
+  <Section
     {...style({
-      color: gray,
-      paddingTop: '6rem',
-      paddingBottom: '3rem'
+      color: colors.black40,
     })}
   >
     {copyright}
-  </footer>
+  </Section>
 ) 

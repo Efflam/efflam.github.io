@@ -7,12 +7,12 @@ export default ({
 }) => {
   return (
     <div>
-      {projects.map((project, i) => (
+      {projects.map((project, i, items) => (
         <div
           key={i}
-          {...style({
-            marginBottom: '1.5rem'
-          })}
+          style={{
+            marginBottom: i < projects.length -1 ? '1.5rem' : 0
+          }}
         >
           <ProjectLink {...project} />
         </div>

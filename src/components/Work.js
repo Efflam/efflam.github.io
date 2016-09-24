@@ -2,15 +2,11 @@ import React from 'react'
 import ProjectList from './ProjectList'
 import SectionHeading from './SectionHeading'
 import {style} from 'glamor'
+import Section from './Section'
 
 export default ({projects}) => (
-  <section
-    {...style({
-      paddingTop: '1rem',
-      paddingBottom: '1rem'
-    })}
-  >
+  <Section>
     <SectionHeading>Featured work</SectionHeading>
     <ProjectList projects={projects}/>
-  </section>
+  </Section>
 ) 

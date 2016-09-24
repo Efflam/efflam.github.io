@@ -2,6 +2,7 @@ import React from 'react'
 import {style, merge, media} from 'glamor'
 import breakpoints from '../constants/breakpoints'
 import Link from './Link'
+import Section from './Section'
 
 const Br = () => (
   <br
@@ -15,14 +16,12 @@ const Br = () => (
 )
 
 export default ({byline, location}) => (
-  <header
-    {...style({
-      marginBottom: '5rem'
-    })}
-  >
+  <Section>
     <p
       {...merge(
         {
+          margin: 0,
+          marginBottom: '2rem',
           fontSize: '1.5rem',
           fontWeight: 'bold'
         },
@@ -36,9 +35,13 @@ export default ({byline, location}) => (
       & modular architecture <Br/>
       for the web platform.
     </p>
-    <p>
+    <p
+      {...style({
+        margin: 0
+      })}
+    >
       Currently Lead Creative Developer at <Link href="http://nu.run">Nurun</Link>.<br/>
-      {location}
+      Based in {location}.
     </p>
-  </header>
+  </Section>
 )

@@ -2,15 +2,16 @@ import React from 'react'
 import {style, merge, media} from 'glamor'
 import breakpoints from '../constants/breakpoints'
 import Link from './Link'
+import Section from './Section'
 
 export default ({mail}) => (
-  <section
+  <Section
     {...merge(
       {
-        paddingTop: '5rem',
-        paddingBottom: '5rem',
+        // paddingTop: '5rem',
+        // paddingBottom: '5rem',
         fontWeight: 'bold',
-        fontSize: '2rem'
+        fontSize: '1.5rem'
       },
       media(breakpoints.tablet, {
         fontSize: '2.5rem',
@@ -22,5 +23,5 @@ export default ({mail}) => (
       please email:
     </p>
     <Link href={`mailto:${mail}`} fat>{mail}</Link>
-  </section>
+  </Section>
 )

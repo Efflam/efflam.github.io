@@ -1,13 +1,13 @@
 import React from 'react'
-import {blue} from '../constants/colors'
+import * as colors from '../constants/colors'
 import {style} from 'glamor'
 
 export default ({name}) => (
   <header
     {...style({
-      paddingTop: '5rem',
+      paddingTop: '8rem',
       paddingBottom: '1rem',
-      color: blue,
+      color: colors.blue,
       fontSize: '1.3rem',
       fontWeight: 'bold',
     })}
