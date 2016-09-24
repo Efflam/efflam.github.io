@@ -8,14 +8,15 @@ export default ({name}) => (
     {...merge(
       style({
         paddingTop: '4rem',
-        paddingBottom: '1rem',
+        paddingBottom: '0rem',
         color: colors.blue,
-        fontSize: '1.3rem',
+        fontSize: '1.2rem',
         fontWeight: 'bold',
       }),
       media(breakpoints.tablet, {
         paddingTop: '8rem',
-        paddingBottom: '1rem',
+        fontSize: '1.5rem',
+        paddingBottom: '0rem',
       })
     )}
   >

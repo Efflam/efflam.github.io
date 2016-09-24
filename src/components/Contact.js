@@ -14,7 +14,7 @@ export default ({mail}) => (
         fontSize: '1.5rem'
       },
       media(breakpoints.tablet, {
-        fontSize: '2.5rem',
+        fontSize: '3rem',
       })
     )}
   >

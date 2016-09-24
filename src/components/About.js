@@ -22,11 +22,11 @@ export default ({byline, location}) => (
         {
           margin: 0,
           marginBottom: '2rem',
-          fontSize: '2rem',
+          fontSize: '1.5rem',
           fontWeight: 'bold'
         },
         media(breakpoints.tablet, {
-          fontSize: '2.5rem',
+          fontSize: '3rem',
         })
       )}
     >
