@@ -19,13 +19,13 @@ module.exports = {
     {
       href: 'http://livreblanc.linkfluence.publicisnurun.fr',
       name: 'Nurun Whitepaper #01',
-      description: 'Interactive 3d data visualization',
+      description: 'Interactive 3D data visualization',
       tags: ['react', 'regl']
     },
     {
       href: 'https://www.purina-one.fr/bifensis/index.html',
       name: 'Purina One Bifensis',
-      description: '3d scroll experience',
+      description: 'Scroll controlled WebGL experience',
       tags: ['gsap', 'three.js']
     },
     {

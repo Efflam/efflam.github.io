@@ -2,6 +2,7 @@ import React from 'react'
 import * as colors from '../constants/colors'
 import breakpoints from '../constants/breakpoints'
 import {style, merge, media} from 'glamor'
+import theme from '../theme'
 
 export default ({name}) => (
   <header
@@ -9,7 +10,7 @@ export default ({name}) => (
       style({
         paddingTop: '4rem',
         paddingBottom: '0rem',
-        color: colors.blue,
+        color: theme.accent,
         fontSize: '1.2rem',
         fontWeight: 'bold',
       }),

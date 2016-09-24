@@ -11,7 +11,7 @@ export default ({
         <div
           key={i}
           style={{
-            marginBottom: i < projects.length -1 ? '1.5rem' : 0
+            marginBottom: i < projects.length -1 ? '2rem' : 0
           }}
         >
           <ProjectLink {...project} />

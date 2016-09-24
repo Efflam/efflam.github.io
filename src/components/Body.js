@@ -9,14 +9,15 @@ import Contact from './Contact'
 import Footer from './Footer'
 import * as colors  from '../constants/colors'
 import * as gradients  from '../constants/gradients'
+import theme from '../theme'
 
 insertRule('html, body { padding: 0; margin: 0; line-height: 1.5; }')
-insertRule(`::selection { background: ${colors.blue}; color:${colors.white};}`)
+insertRule(`::selection { background: ${theme.accent}; color:${colors.white};}`)
 
 
 insertRule(`body { 
-  background: ${colors.white};
-  color: ${colors.black};
+  background: ${theme.background};
+  color: ${theme.color};
   background-repeat: no-repeat;
   background-attachment: fixed;
   -webkit-font-smoothing: antialiased;
@@ -31,6 +32,7 @@ export default (props) => (
       // paddingBottom: '2rem',
       maxWidth: '80rem',
       margin: 'auto',
+      // fontFamily: 'Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,sans'
       fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif',
       display: 'flex',
       minHeight: '100vh',
