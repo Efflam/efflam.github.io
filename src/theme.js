@@ -21,7 +21,7 @@ const medium = {
 const light = {
   background: colors.white,
   color: colors.nearBlack,
-  secondary: colors.lightSilver,
+  secondary: colors.silver,
   accent: colors.blue,
   border: colors.black10,
 }
