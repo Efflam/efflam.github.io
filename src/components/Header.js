@@ -11,7 +11,7 @@ export default ({name}) => (
         paddingTop: '4rem',
         paddingBottom: '0rem',
         color: theme.accent,
-        fontSize: '1.2rem',
+        fontSize: '1.25rem',
         fontWeight: 'bold',
       }),
       media(breakpoints.tablet, {

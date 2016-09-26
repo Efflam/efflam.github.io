@@ -42,7 +42,7 @@ export default ({href, name, description, tags}) => (
               color: theme.secondary,
               fontWeight: 'bold',
               // padding: '0 0.5rem',
-              fontSize: '0.7rem',
+              fontSize: '0.75rem',
               marginRight: '0.5rem',
               textTransform: 'uppercase',
               // cursor: 'pointer',
