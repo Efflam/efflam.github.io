@@ -44,6 +44,7 @@ export const white10 = 'rgba(255,255,255,.1)'
 export const white05 = 'rgba(255,255,255,.05)'
 export const white025 = 'rgba(255,255,255,.025)'
 export const white0125 = 'rgba(255,255,255,.0125)'
+export const blueKing = '#041bf3'
 
 export const darkRed =  '#e7040f'
 export const red =  '#ff4136'

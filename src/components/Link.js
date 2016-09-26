@@ -8,7 +8,7 @@ export default ({href, children, fat=false}) => (
     href={href}
     {...merge(
       {
-        fontWeight: 'bold',
+        // fontWeight: 'bold',
         color: theme.accent,
         textDecoration: 'none',
         boxShadow:  `0 1px 0 ${theme.border}`,

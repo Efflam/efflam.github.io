@@ -23,17 +23,32 @@ const light = {
   color: colors.nearBlack,
   secondary: colors.lightSilver,
   accent: colors.blue,
-  border: colors.black20,
+  border: colors.black10,
+}
+
+const mono = {
+  background: colors.nearWhite,
+  color: colors.nearBlack,
+  secondary: colors.lightSilver,
+  accent: colors.blue,
+  border: colors.black10,
 }
 
 const yeah = {
-  background: gradients.Magma,
+  background: gradients.GnBu,
   color: colors.black,
-  secondary: colors.black30,
+  secondary: colors.black50,
   accent: colors.white,
-  border: colors.black20,
+  border: colors.white10,
 }
 
+const blue = {
+  background: colors.blueKing,
+  color: colors.white,
+  secondary: colors.black30,
+  accent: colors.white,
+  border: colors.black10,
+}
 
 
 export default light
